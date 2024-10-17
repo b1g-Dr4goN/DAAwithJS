@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAA With JS</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: darkgreen;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: darkblue;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        pre {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            color: #333;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        button {
+            background-color: darkgreen;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: rgb(0, 63, 0);
+        }
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Design and Analysis of Algorithms</h1>
+    <p>This HTML file is designed to run and display DAA-related JavaScript code. Made by Big DragoN (2024)</p>
+
+    <pre id="jsCodeDisplay">Choose options to show JavaScript code...</pre>
+    
+    <button onclick="document.getElementById('jsCodeDisplay').textContent='Choose an option to show JavaScript code...'">
+        Hide Code
+    </button>
+
+    <h2>Sorting Section</h2>
+    <button onclick="showCode('/DAA_JS/Sorting/bubbleSort.js'); sort1()">Bubble Sort</button>
+    <button onclick="showCode('/DAA_JS/Sorting/selectionSort.js'); sort2()">Selection Sort</button>
+    <button onclick="showCode('/DAA_JS/Sorting/insertionSort.js'); sort3()">Insertion Sort</button>
+    <button onclick="showCode('/DAA_JS/DivideAndConquer/mergeSort.js'); dnc3()">Merge Sort</button>
+    <button onclick="showCode('/DAA_JS/Sorting/heapSort.js'); sort5()">Heap Sort</button>
+    <button onclick="showCode('/DAA_JS/Sorting/quickSort.js'); sort6()">Quick Sort</button>
+
+    <h2>Divide and Conquer Section</h2>
+    <button onclick="showCode('/DAA_JS/DivideAndConquer/maxMinProblem.js'); dnc1()">Max-Min Problem</button>
+    <button onclick="showCode('/DAA_JS/DivideAndConquer/binarySearch.js'); dnc2()">Binary Search</button>
+    <button onclick="showCode('/DAA_JS/DivideAndConquer/mergeSort.js'); dnc3()">Merge Sort</button>
+    <button onclick="showCode('/DAA_JS/DivideAndConquer/towerOfHanoi.js'); dnc4()">Tower of Hanoi</button>
+    <button onclick="showCode('/DAA_JS/Sorting/quickSort.js'); sort6()">Quick Sort</button>
+
+    <h2>Binary Search Tree Section</h2>
+    <button onclick="showCode('/DAA_JS/BinarySearchTree/binarySearchTree.js'); bst1()">Binary Search Tree</button>
+
+
+    <h2>Dynamic Programming Section</h2>
+    <button onclick="showCode('/DAA_JS/DynamicProgramming/fibonacciSequence.js'); dp1()">Fibonacci Sequence</button>
+
+
+    <h2>Greedy Section</h2>
+
+
+    <h2>Recurrence and Backtracking Section</h2>
+
+
+    <h2>Graph Section</h2>
+    <script src="showCode.js"></script>
+    <script src="/DAA_JS/Sorting/bubbleSort.js"></script>
+    <script src="/DAA_JS/Sorting/insertionSort.js"></script>
+    <script src="/DAA_JS/Sorting/selectionSort.js"></script>
+    <script src="/DAA_JS/DivideAndConquer/maxMinProblem.js"></script>
+    <script src="/DAA_JS/DivideAndConquer/binarySearch.js"></script>
+    <script src="/DAA_JS/DivideAndConquer/mergeSort.js"></script>
+    <script src="/DAA_JS/DivideAndConquer/towerOfHanoi.js"></script>
+    <script src="/DAA_JS/Sorting/heapSort.js"></script>
+    <script src="/DAA_JS/Sorting/quickSort.js"></script>
+    <script src="/DAA_JS/BinarySearchTree/binarySearchTree.js"></script>
+    <script src="/DAA_JS/DynamicProgramming/fibonacciSequence.js"></script>
+</body>
+</html>
